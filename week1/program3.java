@@ -7,6 +7,7 @@ public class program3 {
         Random rnd=new Random();
         int computerChoice=rnd.nextInt(20);
 
+        for(int i=1; i<=6; i++) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter your guess: ");
         int guess=sc.nextInt();
@@ -19,6 +20,7 @@ public class program3 {
         else {
             System.out.println("YOU GUESSED CORRECTLY");
         }
-        System.out.println("Computer choice : " + computerChoice);
     }
+    System.out.println("Computer choice : " + computerChoice);
+}
 }
