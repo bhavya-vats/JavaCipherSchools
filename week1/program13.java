@@ -15,5 +15,8 @@ public class program13 {
     }
     public static void main(String[] args) {
         //Rules- number of parameters must be different.
+        program13 p=new program13();
+        p.add(12.2f, 30.4f);
+        System.out.println(p);
     }
 }
