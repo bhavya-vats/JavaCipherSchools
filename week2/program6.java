@@ -13,11 +13,11 @@ public class program6 {
             n1=sc.nextInt();
             System.out.println("Enter second number: ");
             n2=sc.nextInt();
-
-            result=n1/n2;
-                    if(n2==0) {
+                    
+            if(n2==0) {
                     throw new ArithmeticException();
-                    }
+            }
+            result=n1/n2;
             }
 
             catch(InputMismatchException ime) {
