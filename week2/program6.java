@@ -15,6 +15,9 @@ public class program6 {
             n2=sc.nextInt();
 
             result=n1/n2;
+                    if(n2==0) {
+                    throw new ArithmeticException();
+                    }
             }
 
             catch(InputMismatchException ime) {
